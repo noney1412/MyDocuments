@@ -29,8 +29,9 @@ http://www.siamhtml.com/build-isomorphic-apps-with-react/
 React-Router (https://www.npmjs.com/package/react-router): This is a must-have library for working with routes. The most interesting part of this library for isomorphic apps is the match function. The match function matches a set of routes to a location without rendering, and calls a callback when it’s done. That means that you don’t need to write the routing twice (once for backend, once for frontend).
 
 docs: https://knowbody.github.io/react-router-docs/
+- https://hackernoon.com/simple-guide-to-creating-a-single-page-app-with-react-router-6b6f709a2e3f
+
 ```
 Isomophic Application:
 https://www.babelcoder.com/blog/posts/react-redux-isomorphic-day4-react-redux-isomorphic
-
 ---
