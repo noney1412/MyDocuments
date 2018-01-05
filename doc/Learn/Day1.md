@@ -30,7 +30,8 @@ React-Router (https://www.npmjs.com/package/react-router): This is a must-have l
 
 docs: https://knowbody.github.io/react-router-docs/
 - https://hackernoon.com/simple-guide-to-creating-a-single-page-app-with-react-router-6b6f709a2e3f
-
+-
+https://hackernoon.com/withrouter-advanced-features-of-react-router-for-single-page-apps-42b2a1a0d315
 ```
 Isomophic Application:
 https://www.babelcoder.com/blog/posts/react-redux-isomorphic-day4-react-redux-isomorphic
