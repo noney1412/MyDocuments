@@ -12,5 +12,5 @@ Learn NextJS
 using namespace std;
 
 cout = console output_stream object
-
+ostream &log = cout;
 ---
