@@ -13,4 +13,9 @@ using namespace std;
 
 cout = console output_stream object
 ostream &log = cout;
+cin >> variable
+
+Data Types:
+Fundamental & Compounds
+--> int,char,float,boolean --> {"hello",8,6.52,true}
 ---
