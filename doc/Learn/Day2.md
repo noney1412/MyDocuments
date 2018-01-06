@@ -7,4 +7,10 @@ Learn NextJS
 
 - UX and A/B testing Articles
 
+``` "Learn C++ " ```
+#include <iostream>
+using namespace std;
+
+cout = console output_stream object
+
 ---
