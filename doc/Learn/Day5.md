@@ -47,4 +47,7 @@ Function Mpy
              (4,a),(4,b),(4,c),(4,d)    
     }
     A x B != B x A
+    n(A x B) = n(A)n(B) ~!= infinity
+    n(B x A) = n(A x B)
+
 ---
