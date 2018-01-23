@@ -14,6 +14,6 @@
 * not good for CPU-intensive task ( *Hard Working Function* )
 * CallBack Hell  ( *fixed by Promise* )
 
-## สารบัญ
+## Index 
 
 
