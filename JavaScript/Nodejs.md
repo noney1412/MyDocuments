@@ -1,7 +1,7 @@
 # NodeJs Study ::
 
 
-Made of Chrome V.8 ( JavaScript Engine Written by C++ )
+*NodeJS* is JavaScript runtime built on *Chrome V.8 JavaScript Engine*.
 
 
 ## สารบัญ
