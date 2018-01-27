@@ -13,4 +13,9 @@ create 1st machine learning
 
 ##Cloud Service
 - Hosting , Azure Web Service , ( Switch Sever && Automate )
-- 
+- Software as Service 
+
+pros :
+- most data center // less ping 
+- PLANET SCALE ( cosmos data service )
+- IoT // VM // Disk Storage
