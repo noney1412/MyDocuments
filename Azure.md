@@ -6,8 +6,7 @@ create 1st machine learning
 
 ---
 
-MSPTH
-
-
-
-
+why cloud ?
+- quick setup
+- can scale
+- increase diary activity
