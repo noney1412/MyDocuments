@@ -19,3 +19,4 @@ pros :
 - most data center // less ping 
 - PLANET SCALE ( cosmos data service )
 - IoT // VM // Disk Storage
+- 1 Web 1 Gb free forever
