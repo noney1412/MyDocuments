@@ -20,6 +20,6 @@ pros :
 - PLANET SCALE ( cosmos data service )
 - IoT // VM // Disk Storage
 - 1 Web 1 Gb free forever
-- Automate deploy by Github
+- Automate deploy by Github // AutoScale
 
 
