@@ -2,8 +2,10 @@ from collections import Counter
 
 option_list = ["vowel", "alphabet", "digit", "lowercase", "uppercase"]
 
+
 class ifError(object):
     bug_count = 3
+
 
 print(" ")
 print(" วิธีการใช้งาน ")
@@ -21,7 +23,7 @@ while (ifError.bug_count >= 0):
         print(" ")
         print("กรุณาใส่ข้อความให้ถูกต้อง คุณมีโอกาศ", ifError.bug_count, "ครั้ง")
         print(" ")
-    
+
     try:
         opt, args = input("count ").split()
 
@@ -33,19 +35,34 @@ while (ifError.bug_count >= 0):
 
     if opt in option_list:
 
+        class checkVowel(object):
+            vowels = set("aeiou")
+
         if opt == "vowel":
-           vowels = set('aeiou') 
-           counter = Counter(v for v in args.lower() if v in vowels)
-           print(sum(counter.values()))
+            counter = Counter(v for v in args.lower() if v in checkVowel.vowels)
+            print(sum(counter.values()))
 
         elif opt == "alphabet":
-            print("alphabet")
+            counter = Counter(v for v in args.lower() if v not in checkVowel.vowels)
+            print(sum(counter.values()))
+
+        elif opt == "digit":
+            counter = Counter(v for v in args if v in set("0123456789"))
+            print(sum(counter.values()))
+        
+        elif opt == "lowercase":
+            counter = Counter(v for v in args if v.islower())
+            print(sum(counter.values()))
+
+        elif opt == "uppercase":
+            counter = Counter(v for v in args if v.isupper())
+            print(sum(counter.values()))
         
         else:
             handle_error()
             ifError.bug_count -= 1
-    
-    elif opt == "0" and args == "0" :
+
+    elif opt == "0" and args == "0":
         break
 
     else:
