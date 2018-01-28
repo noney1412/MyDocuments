@@ -35,32 +35,39 @@ while (ifError.bug_count >= 0):
 
     if opt in option_list:
 
-        class checkVowel(object):
-            vowels = set("aeiou")
+        if args.isalpha():
+            class checkVowel(object):
+                vowels = set("aeiou")
 
-        if opt == "vowel":
-            counter = Counter(v for v in args.lower() if v in checkVowel.vowels)
-            print(sum(counter.values()))
+            if opt == "vowel":
+                counter = Counter(v for v in args.lower() if v in checkVowel.vowels)
+                print(sum(counter.values()))
 
-        elif opt == "alphabet":
-            counter = Counter(v for v in args.lower() if v not in checkVowel.vowels)
-            print(sum(counter.values()))
+            elif opt == "alphabet":
+                counter = Counter(v for v in args.lower() if v not in checkVowel.vowels)
+                print(sum(counter.values()))
+            
+            elif opt == "lowercase":
+                counter = Counter(v for v in args if v.islower())
+                print(sum(counter.values()))
+
+            elif opt == "uppercase":
+                counter = Counter(v for v in args if v.isupper())
+                print(sum(counter.values()))
+            
+            else:
+                handle_error()
+                ifError.bug_count -= 1
 
         elif opt == "digit":
-            counter = Counter(v for v in args if v in set("0123456789"))
-            print(sum(counter.values()))
-        
-        elif opt == "lowercase":
-            counter = Counter(v for v in args if v.islower())
-            print(sum(counter.values()))
-
-        elif opt == "uppercase":
-            counter = Counter(v for v in args if v.isupper())
-            print(sum(counter.values()))
+                counter = Counter(v for v in args if v in set("0123456789"))
+                print(sum(counter.values()))
         
         else:
-            handle_error()
-            ifError.bug_count -= 1
+            print("---- _Warning !! ----")
+            print("ข้อความชุดนี้มีตัวเลขประกอบอยู่ข้างใน กรุณาใช้ digit เป็นข้อความ option ที่ 1 เพื่อลดข้อผิดพลาด")
+            print("ตัวอย่างเช่น : count digit eiei5558989898")
+            print(" ")
 
     elif opt == "0" and args == "0":
         break
