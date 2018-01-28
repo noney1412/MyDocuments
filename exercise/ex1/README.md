@@ -5,13 +5,14 @@ Command Line Argument 2 ข้อความ โดยข้อความท�
 ****
 ## How to (***using python***)
 
-opt = vowel / alphabet / digit / lowercase / uppercase
-args = alphanumeric
+### input
+- opt = vowel / alphabet / digit / lowercase / uppercase
+- args = alphanumeric
 
 ***alphanumeric characters**
 ตัวอักขระทั้งหมดที่เป็นได้ทั้งตัวอักษร (a, b, c,…) ตัวเลข (1, 2, 3,...) สัญลักษณ์พิเศษ ช่องว่าง และเครื่องหมายวรรคตอนต่าง ๆ ( #, 4,…)
 
-```mermaid
+``` mermaid
 
 graph LR;
     A(Run: while !Bug)-->|input : opt,args|B1(args=Rawitat)
