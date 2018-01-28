@@ -26,4 +26,5 @@ graph LR;
     A-->|Error|E(restart)  
 
 ```
+![cover](ex1-mermaid.png)
 
