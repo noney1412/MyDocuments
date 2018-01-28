@@ -11,12 +11,19 @@ Command Line Argument 2 ข้อความ โดยข้อความท�
 opt = vowel / alphabet / digit / lowercase / uppercase
 args = alphanumeric
 
+***alphanumeric characters**
+ตัวอักขระทั้งหมดที่เป็นได้ทั้งตัวอักษร (a, b, c,…) ตัวเลข (1, 2, 3,...) สัญลักษณ์พิเศษ ช่องว่าง และเครื่องหมายวรรคตอนต่าง ๆ ( #, 4,…)
+
 ```mermaid
 
-graph TD;
-    A(Run)-->|input : opt,args|B(D);
-    A-->b  
+graph LR;
+    A(Run: while !Bug)-->|input : opt,args|B1(args=Rawitat)
+    B1 --> O1(vowel=3)
+    B1 --> O2(alphabet=4)
+    B1 --> O3(digit=0)
+    B1 --> O4(lowercase=6)
+    B1 --> O5(uppercase=1)
+    A-->|Error|E(restart)  
 
 ```
 
-["vowel","alphabet","digit","lowercase","uppercase"]
