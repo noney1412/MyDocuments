@@ -10,10 +10,14 @@ UX/UI
 List Of My Design Inspiration Website
 - 
 
+##### Reference 
+:memo: from *Dribbble* : 
+- https://dribbble.com/frameio
 
 ##### example : :heart: *someone portfolio* :heart:   
 - https://www.blaiseposmyouck.com/en/conditions
 - http://www.mitshit.com/
+- https://csswizardry.com/
 
 Its229 HomeWork : ***My Home*work**
 https://docs.google.com/presentation/d/1nbM9DMBHxjPOLFopOc8qBPKmu-w7JpU888ss6eegsNk/edit
