@@ -2,7 +2,7 @@
 
 UX/UI
 
-- 1. Modern UI : https://medium.com/ux-power-tools/50-things-you-probably-forgot-to-design-7a288b0ef914
+- 1. 50 Things To Desgin : https://medium.com/ux-power-tools/50-things-you-probably-forgot-to-design-7a288b0ef914
 - 2. Layout-Design : https://digitalsynopsis.com/design/useful-ui-ux-design-tips/
 - 3. Auto-Complete : https://earthchie.github.io/jquery.Thailand.js/
 
