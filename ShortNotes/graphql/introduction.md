@@ -13,9 +13,9 @@ query {
   stuff
 }
 We’re declaring a new query using the query keyword, then asking for a field named stuff. The great thing about GraphQL queries is that they support nested fields, so we can go one level deeper:k
-## 3 Main : Schema , Query , Resolver 
+# 3 Main : Schema , Query , Resolver 
 
-### Queries [ Ask For Data ]
+## Queries [ Ask For Data ]
 - ### Anatomy
 
 ![cover](./img/anatomy.png)
@@ -69,4 +69,15 @@ query getMyPost($id: String) {
 } 
 ```
 
-We’re declaring a new query using the query keyword, then asking for a field named stuff. The great thing about GraphQL queries is that they support nested fields, so we can go one level deeper:
+## Resolver [ How to get Data ]
+- ### Anatomy
+```
+Query: {
+  post(root, args) {
+    return Posts.find({ id: args.id });
+  }
+}
+```
+```
+Post : (root,args) => return Post.find({ id: args.id })
+```
