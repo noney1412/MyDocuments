@@ -7,7 +7,7 @@ GraphQL
 ===============================================
 .
 0. เริ่มด้วยบทความสรุปภาพรวมของ GraphQL ก่อนเลยครับ (ยาวหน่อย แต่อยากให้อ่านให้จบจริงๆ ครับ)
-https://medium.freecodecamp.com/so-whats-this-graphql-thing…
+https://medium.freecodecamp.org/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf
 .
 1. จากนั้นแนะนำเว็บนี้ต่อเลยครับ อันนี้อ่านเข้าใจง่ายมากๆ
 https://www.howtographql.com/
@@ -23,7 +23,7 @@ Frameworks
 2. Apollo (ฟีเจอร์คล้าย Relay แต่ทำให้ใช้ง่ายขึ้น และรองรับ JS Framework หลายตัว)
 .
 ถ้าใครยังตัดสินใจไม่ได้ว่าจะไปสายไหน แนะนำให้อ่านบทความนี้เลยครับ เปรียบเทียบ Apollo กับ Relay ได้ดีมากๆ
-http://www.codazen.com/choosing-graphql-client-apollo-vs-r…/
+http://www.codazen.com/choosing-graphql-client-apollo-vs-relay/
 .
 .
 Apollo
