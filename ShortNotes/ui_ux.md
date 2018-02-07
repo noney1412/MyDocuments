@@ -32,3 +32,6 @@ https://docs.google.com/presentation/d/1nbM9DMBHxjPOLFopOc8qBPKmu-w7JpU888ss6eeg
 
 # Tools
 - Web Access In Mind : https://webaim.org/resources/contrastchecker/
+
+# CSS
+- HTML entities : https://dev.w3.org/html5/html-author/charref
