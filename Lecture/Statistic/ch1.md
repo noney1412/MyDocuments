@@ -11,6 +11,8 @@
 
 * [Engineering or Scientific method](##Engineering-or-Scientific-method)
 
+![concept](./img/ch1.png)
+
 ---
 
 ## Engineering or Scientific method
