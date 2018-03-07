@@ -4,11 +4,11 @@ OS_Homework sec 2
 
 SIIT Student
 
-Editor VSCODE :: using CLI - Cygwin $sudo c++ pts.cpp
+Editor VSCODE :: using CLI - Cygwin $sudo c++ fileName.cpp
 Version :: Cpp 17
 */
 
-// $sudo c++ pts.cpp
+// $sudo c++ fileName.cpp
 
 #include <iostream>
 #include <stdlib.h>
@@ -22,15 +22,15 @@ int counts = 0;
 
 void _Counter(int process) {
 
-  int i = 0;
   printf("Process In = : %d\n", process);
 
   flag[process] = 1;
   turn = 1 - process;
+
   while (flag[1 - process] == 1 && turn == 1 - process) {
   };
 
-  for (i = 0; i < 10000; i++)
+  for (int i = 0; i < 10000; i++)
     counts++;
 
   flag[process] = 0;
