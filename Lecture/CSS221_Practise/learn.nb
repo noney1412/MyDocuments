@@ -1,0 +1,16 @@
+Learn
+In[1754]:= SetOptions[Plot,PlotStyle->Gray]
+
+f1[x_] := Sin[x^2]+Cos[x]
+
+Plot[x^2,{x,-14,15},PlotPoints->12]
+
+
+Remove["Global`*"]
+
+Out[1756]= 
+
+xt2[t_]:=Cos[t]
+yt2[t_]:=Sin[t^2-1]
+St2[t_] := {xt1[t],yt2[t]}
+
